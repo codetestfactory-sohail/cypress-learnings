@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Env files
+.env
+.env.*
+
+# Coverage
+coverage/
+
+# npm debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.idea/
+*.swp
