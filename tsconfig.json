@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "lib": ["es6", "dom"],
-    "types": ["cypress", "mocha"]
+    "types": ["cypress", "mocha", "cypress-healing"],
   },
   "include": [
     "cypress"

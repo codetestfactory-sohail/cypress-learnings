@@ -1,0 +1,25 @@
+{
+ "ai": {
+    "enabled": true,
+    "provider": "copilot",
+    "providers": {
+      "openai": { "apiKey": "", "model": "gpt-4" },
+      "gemini": { "apiKey": "", "model": "gemini-pro" }
+    }
+  },
+  "heuristics": {
+    "priority": ["data-cy", "data-testid", "aria-label", "role", "text", "label", "class", "id"],
+    "excludePatterns": ["^ember-", "^react-", "^ng-", "^[0-9]+$"],
+    "enableLogging": true,
+    "maxTextLength": 50,
+    "minTextLength": 1
+  },
+  "healing": {
+    "maxAttempts": 3,
+    "timeout": 2000,
+    "saveHealed": true,
+    "healedSelectorsFile": "cypress/healed-selectors.json",
+    "reportFile": "cypress/healing-report.html",
+    "autoHeal": true
+  }
+}
